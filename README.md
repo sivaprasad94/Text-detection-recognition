@@ -6,23 +6,9 @@ PyTorch implementation for CRAFT text detector that effectively detect text area
 ## Getting started
 ### Install dependencies
 #### Requirements
-- PyTorch>=0.4.1
-- torchvision>=0.2.1
-- opencv-python>=3.4.2
-- check requiremtns.txt
 ```
 pip install -r requirements.txt
 ```
-
-
-### Test instruction using pretrained model
-- Download the trained models
- 
- *Model name* | *Used datasets* | *Languages* | *Purpose* | *Model Link* |
- | :--- | :--- | :--- | :--- | :--- |
-General | SynthText, IC13, IC17 | Eng + MLT | For general purpose | [Click](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ)
-IC15 | SynthText, IC15 | Eng | For IC15 only | [Click](https://drive.google.com/open?id=1i2R7UIUqmkUtF0jv_3MXTqmQ_9wuAnLf)
-LinkRefiner | CTW1500 | - | Used with the General Model | [Click](https://drive.google.com/open?id=1XSaFwBkOaFOdtk4Ane3DFyJGPRw6v5bO)
 
 * Run with pretrained model
 ``` (with python 3.7)
