@@ -4,7 +4,6 @@ PyTorch implementation for CRAFT text detector that effectively detect text area
 ### link to predtrained model 
 https://drive.google.com/file/d/1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ/view
 
-## Getting started
 ### Install dependencies
 #### Requirements
 ```
