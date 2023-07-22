@@ -1,7 +1,8 @@
 ### Overview
 PyTorch implementation for CRAFT text detector that effectively detect text area by exploring each character region and affinity between characters. The bounding box of texts are obtained by simply finding minimum bounding rectangles on binary map after thresholding character region and affinity scores. 
 
-
+### link to predtrained model 
+https://drive.google.com/file/d/1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ/view
 
 ## Getting started
 ### Install dependencies
@@ -15,10 +16,10 @@ pip install -r requirements.txt
 python test.py --trained_model=[weightfile] --test_folder=[folder path to test images]
 ```
 
-The result image and socre maps will be saved to `./result` by default.
+The result result text bounding box image and text file with output will be saved to ./result folder
 
 ### Arguments
-* `--trained_model`: pretrained model
+* `--trained_model`: pretrained model 
 * `--text_threshold`: text confidence threshold
 * `--low_text`: text low-bound score
 * `--link_threshold`: link confidence threshold
